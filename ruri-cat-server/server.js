@@ -2,7 +2,7 @@
  * @description: 视频聊天服务器
  * @version: 1.0.0
  * @author: Zdx-1
- * 
+ *
  */
 //引入依赖项
 const express = require('express');
@@ -15,7 +15,7 @@ const app = express();
 const PORT=process.env.PORT || 1412;
 
 //cors包解决跨域问题
-app.use(cors);
+app.use(cors());
 
 //监听端口号启动服务器
 const server = app.listen(PORT, () => {
