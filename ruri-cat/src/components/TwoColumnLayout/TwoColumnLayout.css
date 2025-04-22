@@ -1,0 +1,16 @@
+.two-column-layout {
+    height: calc(100vh - 48px);
+    background: #fff;
+}
+
+.two-column-sider {
+    background: #fff;
+    border-right: 1px solid #f0f0f0;
+    overflow: hidden;
+}
+
+.two-column-content {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
